@@ -3,7 +3,7 @@ CasaAmor is a re-creation of Airbnb, empowering users to find their ideal honeym
 
 ## Wire Frames
 ### Listing Property Page
-![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/cebf7d36-700d-4833-90d3-9b1ed9da0ca2)
+![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/818c7127-4232-4a96-badf-2e815cf257a7)
 * Listed all properties
 * Search bar and filters
 * Welcome - Sign up / Log In / Log out / Profile / CasaAmor your home
@@ -45,6 +45,21 @@ CasaAmor is a re-creation of Airbnb, empowering users to find their ideal honeym
 
 ## User Stories
 ### MVP Goals
-
+* As a user, I want the ability to create an account and log in.
+* As a user, I want the ability to edit my account info.
+* As a user, I want to view all the properties.
+* As a user, I want view each property's details.
+* As a user, I want the ability to book a reservation,edit, and delete it.
+* As a user, I want the ability to view my past and upcoming trips.
+* As a user, I want the ability to leave a review on my past trip.
+* As a user, I want the ability to edit or cancel the reservation for the upcoming trip.
+* As a user, I want the ability to CasaAmor my property to become a host.
+* As a user, I want the ability to manage(edit and delete) my property as a host.
+* As a user, I want the ability to view my all properties as a host.
+* As a user, I want the ability to see my guest's booking as a host.
+* As a user, I want the ability to see the income analysis as a host.
 
 ### Stretch Goals
+* As a user, I want the ability to search bar.
+* As a user, I want the ability to use filters.
+* As a user, I want the ability to save my favorite properties.
