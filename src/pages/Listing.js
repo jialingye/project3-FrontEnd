@@ -8,8 +8,8 @@ import SecNav from '../components/Nav/SecNav';
 const Listing = () => {
   const [propertiesState, setPropertiesState] = useState(null);
 
-  //const URL = "http://localhost:4000/";
-  const URL = "https://airbnb-main.onrender.com";
+  const URL = "http://localhost:4000/listing";
+  // const URL = "https://airbnb-main.onrender.com";
 
   useEffect(() => {
     const fetchProperties = async () => {
