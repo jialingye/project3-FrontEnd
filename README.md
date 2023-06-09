@@ -21,11 +21,26 @@ CasaAmor is a re-creation of Airbnb, empowering users to find their ideal honeym
 
 ### Booking
 ![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/0daf4af6-ebd4-49d7-a3cb-057d67a8f598)
+* Check in & out date
+* Show an error message if the selected dates are already booked
 ![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/6452f519-c11d-4583-9c8f-bc83bda5379a)
+* A receipt confirming booking successfully
+
 
 ### Profile
-![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/6a452e52-023b-41fb-990b-a4b93840d4d3)
+![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/1e5f2824-b699-4400-83be-2698c8bff508)
+* Edit profile info
+* Future booking - manage reservations as guest
+* Past booking - leave reviews as guest
+* Review - see reviews as guest
+* Properties - manage properties as host
+* Guest booking - view reservations as host
+* Income - View income analysis as host
+* Save - save favorite as guest
 
+### Create a property for listing
+![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/1da22d45-0215-431d-b7cc-bfc6e8fcb3f7)
+![image](https://github.com/jialingye/project3-FrontEnd/assets/122236820/1a848e70-091e-48d1-b3ed-2157b4929978)
 
 
 ## User Stories
