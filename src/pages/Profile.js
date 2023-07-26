@@ -25,9 +25,9 @@ const Profile = () => {
   }
  
   useEffect(() => {
-    console.log('useEffect ran')
+
       if(auth.userId){
-        console.log('auth ok')
+        
         const profileFetch = async() =>{
           try{
               const options = {
