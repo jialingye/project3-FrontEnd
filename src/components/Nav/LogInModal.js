@@ -50,19 +50,19 @@ try{
       );
 
       const LoginObj = await responseData.json();
-      console.log(LoginObj)
+      //console.log(LoginObj)
       
       if(responseData.ok) {
         // set the auth with successfully login info
         auth.login(LoginObj.currentUser.id,LoginObj.token,LoginObj.currentUser)
    
-        console.log(LoginObj)
-        console.log("Login sucessful");
+        //console.log(LoginObj)
+        //console.log("Login sucessful");
         //close modal
          handleClose();
       } else {
           setErrorMessage("Email or password do not match");
-          console.log("Login failed:")
+          //console.log("Login failed:")
       }
 
 } catch(error){

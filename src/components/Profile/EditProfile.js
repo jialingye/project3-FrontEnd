@@ -39,7 +39,7 @@ const EditProfile = ({show,handleClose,profile}) => {
         const responseData = await fetch(`https://airbnb-main.onrender.com/user/${profile._id}`, options);
 
         const updatedProfileData = await responseData.json();
-        console.log(updatedProfileData);
+        //console.log(updatedProfileData);
         handleClose();
         window.location.reload();
     }

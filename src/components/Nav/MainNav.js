@@ -27,7 +27,7 @@ const handleCurrentUser = (data) => {
   setCurrentUser(data);
 }
 
-console.log(currentUser)
+//console.log(currentUser)
 
   return (
     <div className="mainNavBar">

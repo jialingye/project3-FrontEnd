@@ -46,14 +46,14 @@ const EditReview = ({show,handleClose,reviewData}) => {
        // const responseData = await fetch(`http://localhost:4000/review/${reviewData._id}`, options);
 
         const updatedReviewData = await responseData.json();
-        console.log(updatedReviewData);
+        //console.log(updatedReviewData);
         handleClose();
         window.location.reload();
     }
 
     const onDeleteHandler = async (event) => {
         event.preventDefault();
-        console.log("Delete review with ", reviewData._id)
+        //console.log("Delete review with ", reviewData._id)
 
         const options = {
             method: "DELETE",
@@ -62,7 +62,7 @@ const EditReview = ({show,handleClose,reviewData}) => {
         const responseData = await fetch(`https://airbnb-main.onrender.com/review/${reviewData._id}`, options);
        // const responseData = await fetch(`http://localhost:4000/review/${reviewData._id}`, options);
         const response = await responseData.json();
-        console.log(response)
+        //console.log(response)
         window.location.reload();
     }
   return (

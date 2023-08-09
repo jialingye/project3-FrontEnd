@@ -46,18 +46,18 @@ function SignUpModal({show,handleClose}) {
       );
 
       const signUpObj = await responseData.json();
-      console.log(signUpObj)
+      //console.log(signUpObj)
       
       if(responseData.ok) {
         // set the auth with successfully login info
         //console.log(signUpObj)
-        console.log("Login sucessful");
+        //console.log("Login sucessful");
         logIn();
         //close modal
          handleClose();
       } else {
           setErrorMessage(signUpObj.error);
-          console.log("Login failed:")
+          //console.log("Login failed:")
       }
 
 } catch(error){
@@ -87,11 +87,11 @@ const logIn = async () => {
 
     if (responseData.status === 200) {
       auth.login(loginObj.currentUser.id, loginObj.token, loginObj.currentUser);
-      console.log('Login successful');
+      //console.log('Login successful');
       handleClose();
     } else {
       setErrorMessage('Email or password do not match');
-      console.log('Login failed');
+      //console.log('Login failed');
     }
   } catch (error) {
     console.error('Login error:', error);

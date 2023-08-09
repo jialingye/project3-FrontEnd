@@ -78,7 +78,7 @@ const EditBooking = ({show,handleClose,bookingData}) => {
 }
   //onChange handler
   const onChangeHandler = (e, setValue) => {
-    console.log(e.target.value);
+    //console.log(e.target.value);
     setValue(e.target.value); //this represents any state updater (setName) that we passed in
   }; 
 

@@ -15,7 +15,7 @@ const PastBooking = ({booking}) => {
       return bookingDate < currentDate;
     });
 
-console.log(pastBooking)
+//console.log(pastBooking)
    
      const pbooking = pastBooking.map((info, index) => {
        const startDate = new Date(info.startDate).toLocaleDateString();

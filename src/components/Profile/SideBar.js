@@ -16,7 +16,7 @@ const SideBar = ({profile}) => {
  const {username, description, occupation, image} = profile
   return (
     <div className='InSideBar'>
-      <div style={{marginTop:'50px'}}>
+      <div style={{marginTop:'25px'}}>
       {image? (
             <Figure>
             <Figure.Image

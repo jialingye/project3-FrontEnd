@@ -148,7 +148,7 @@ const Booking = (props) => {
 			endDate: endDate,
 			totalPrice: finalTotalPrice
       	}
-      	console.log(newBooking)
+      	//console.log(newBooking)
       	const options = {
 			method: "POST",
 			headers: {
@@ -158,7 +158,7 @@ const Booking = (props) => {
       	}
       	const responseData = await fetch("https://airbnb-main.onrender.com/booking" , options)
       	const newBookingObj = await responseData.json()
-      	console.log(newBookingObj)
+      	//console.log(newBookingObj)
 		
 		if(newBookingObj.error){
 			setBookingError(newBookingObj.error);

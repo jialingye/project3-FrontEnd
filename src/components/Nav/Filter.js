@@ -10,7 +10,7 @@ function Filter({show,handleClose,filterData}) {
     const [amenities, setAmenities] = useState([]);
   
     const onChangeHandler = (e, setValue) => {
-        console.log(e.target.value);
+        //console.log(e.target.value);
         setValue(e.target.value);
     };
     const handleAmenitiesChange = (e) => {
@@ -35,22 +35,22 @@ function Filter({show,handleClose,filterData}) {
     for (let key in queryObject){
         if(key === "amenities" ) {
             if(queryObject[key].length > 0) {
-                console.log(key)
+                //console.log(key)
                 queryArr.push(`${key}=${queryObject[key]}`)
             }
         } else if(queryObject[key] !== null ) {
-            console.log(key)
+            //console.log(key)
             queryArr.push(`${key}=${queryObject[key]}`)
         }
     }
   
-    console.log(queryArr);
+    //console.log(queryArr);
     const queryString = queryArr.join("&")
-    console.log(`http://localhost:4000/listing/?${queryString}`)
+    //console.log(`http://localhost:4000/listing/?${queryString}`)
     const listings = await fetch(`http://localhost:4000/listing/?${queryString}`);
-    console.log(listings);
+    //console.log(listings);
     const data = await listings.json();
-    console.log(data);
+    //console.log(data);
     filterData(data);
 };
     const clearFilter = () => {

@@ -22,7 +22,7 @@ function Host() {
 			const userData = await responseData.json();
 
 			setUserState(userData);
-			console.log("userData,userState",userData)
+			//console.log("userData,userState",userData)
 		  } catch (error) {
 			console.log(error)
 		  }

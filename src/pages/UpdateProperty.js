@@ -101,12 +101,12 @@ const UpdateProperty = () => {
       body: JSON.stringify(newListing),
      };
 
-    //  const responseData = await fetch(
-    //   `https://airbnb-main.onrender.com/listing/${id}`, options
-    //   )
      const responseData = await fetch(
-      `http://localhost:4000/listing/${id}`, options
+      `https://airbnb-main.onrender.com/listing/${id}`, options
       )
+    //  const responseData = await fetch(
+    //   `http://localhost:4000/listing/${id}`, options
+    //   )
       const newListingObj = await responseData.json();
       navigate(`/listing/${id}`);
      // console.log(newListingObj)
@@ -128,7 +128,7 @@ const UpdateProperty = () => {
     const responseData = await fetch(`https://airbnb-main.onrender.com/listing/${id}`, options);
    // const responseData = await fetch(`http://localhost:4000/listing/${id}`, options);
     const response = await responseData.json();
-    console.log(response)
+    //console.log(response)
     navigate('/')
 }
 
