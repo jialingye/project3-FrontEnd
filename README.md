@@ -76,21 +76,21 @@
 ## User Stories
 ### MVP Goals
 * As a user, I want the ability to create an account and log in.
-* As a user, I want the ability to search/filter courses.
-* As a user, I want to view all the courses
-* As a user, I want view each courses detail and lessons.
-* As a user, I want the ability to enroll/unenroll a course.
-* As a user, I want the ability to answer the assessments question.
-* As a user, I want the ability to update/resubmit my assessments answer.
-* As a user, I want the ability to check my answer with AI API.
-* As a user, I want the ability to edit and delete my lessons.
-* As a user, I want the ability to edit and delete my assessments.
-* As a user, I want the ability to edit and delete my courses.
-* As a user, I want the ability to create, edit and delete collection.
-* As a user, I want the ability to add course and remove course from collection.
-* As a user, I want the ability to save other people's collection.
+* As a user, I want the ability to edit my account info.
+* As a user, I want to view all the properties.
+* As a user, I want view each property's details.
+* As a user, I want the ability to book a reservation,edit, and delete it.
+* As a user, I want the ability to save a property in my wish list.
+* As a user, I want the ability to view my past and upcoming trips.
+* As a user, I want the ability to leave a review on my past trip.
+* As a user, I want the ability to edit or cancel the reservation for the upcoming trip.
+* As a user, I want the ability to CasaAmor my property to become a host.
+* As a user, I want the ability to manage(edit and delete) my property as a host.
+* As a user, I want the ability to view my all properties as a host.
+* As a user, I want the ability to see my guest's booking as a host.
+* As a user, I want the ability to see the income analysis as a host.
 
 
 ### Stretch Goals
-* As a user, I want the ability to rate the courses.
-* As a user, I want the ability to comment the courses.
+* As a user, I want the ability to use filter after i get result from search bar.
+* As a user, I want the ability to use save favorite to different folder.
