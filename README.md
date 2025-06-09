@@ -77,9 +77,9 @@
 ### MVP Goals
 * As a user, I want the ability to create an account and log in.
 * As a user, I want the ability to edit my account info.
-* As a user, I want the ability to search/filter courses.
+* As a user, I want the ability to search/filter properties.
 * As a user, I want the ability to view all the properties.
-* As a user, I want the ability to -view each property's detail.
+* As a user, I want the ability to view each property's detail.
 * As a user, I want the ability to book a reservation, edit and delete it.
 * As a user, I want the ability to save a property in my wish list.
 * As a user, I want the ability to leave a review on my past trip.
